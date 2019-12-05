@@ -58,7 +58,7 @@ async function run(name) {
 }
 
 if (process.argv.length < 4) {
-    console.log("Error: No Game Pin was passed as parameter!");
+    console.log("Error: Not enough parameters!");
     process.exit(-1);
 }
 
