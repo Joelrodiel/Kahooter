@@ -1,0 +1,19 @@
+{
+  "name": "kahooter",
+  "version": "1.0.0",
+  "description": "A Kahoot bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no est specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "nothoel",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
